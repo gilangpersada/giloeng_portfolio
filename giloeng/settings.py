@@ -24,7 +24,7 @@ SECRET_KEY = '%5v5!zqh@=*ylxz-vr%vw4+b24%#*u7dx(t&oxf$l0=lu0n4sk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://giloeng.herokuapp.com/']
+ALLOWED_HOSTS = ['giloeng.herokuapp.com']
 
 # Application definition
 
