@@ -1,0 +1,1 @@
+web: gunicorn giloeng.wsgi --log-file -

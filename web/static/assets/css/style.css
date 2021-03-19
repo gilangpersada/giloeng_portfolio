@@ -1,0 +1,156 @@
+html, body {
+    background-color: #151b17 !important;
+}
+
+.image {
+    opacity: 60%;
+}
+
+.color-1 {
+    color: #067A4C;
+}
+
+.underline-2 {
+    border-bottom: 1px solid #067A4C;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.underline-2:hover {
+    border-bottom: 0px solid #067A4C;
+    font-size: 20px;
+}
+
+.underline {
+    text-decoration: none;
+    font-size: 1vw;
+    letter-spacing: 0.1em;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.underline:hover {
+    font-size: 1.4vw;
+}
+
+.container {
+    background-color: transparent;
+}
+
+.header {
+    position: relative;
+    z-index: 0;
+    margin-top: 20%;
+}
+
+.typograph {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+}
+
+.typograph-2 {
+    position: absolute;
+    z-index: 2;
+    top: 48%;
+}
+
+.typograph-3 {
+    position: absolute;
+    z-index: 2;
+    top: 57%;
+}
+
+.content {
+    margin-top: 8%;
+}
+
+.content-mini {
+    position: relative;
+}
+
+.overlay {
+    -webkit-transition: 1s;
+    transition: 1s;
+    opacity: 0.4;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.content-mini-text {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    z-index: 2;
+}
+
+.text-category {
+    letter-spacing: 0.2em;
+    font-size: 12px;
+}
+
+.text-tittle {
+    font-size: 14px;
+}
+
+.transparent-form {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #067A4C !important;
+    outline: none !important;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+footer {
+    margin-top: 8%;
+}
+
+.footer-text {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.rotate-logo {
+    opacity: 0.5;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    height: 20vw;
+    width: 20vw;
+    -webkit-animation: rotation 10s infinite linear;
+    animation: rotation 10s infinite linear;;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+
+
